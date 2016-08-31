@@ -29,6 +29,7 @@ async def woah(message, client):
 
 @base.postcommand
 async def wow(message, client):
+    """
     c = message.content.lower()
     if message.author.id != client.user.id:
         if c == 'wow' or c == 'wow.':
@@ -37,7 +38,7 @@ async def wow(message, client):
                     message.channel,
                     'Ethan, great moves. Keep it up. I\'m proud of you.'
                     )
-
+    """
 suicides = [
     'Looks like Team %k is blasting off again!',
     '%k divided by 0.',
